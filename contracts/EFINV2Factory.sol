@@ -4,6 +4,9 @@ import './interfaces/IEFINV2Factory.sol';
 import './EFINV2Pair.sol';
 
 contract EFINV2Factory is IEFINV2Factory {
+
+    bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(EFINV2Pair).creationCode));
+
     address public feeTo;
     address public feeToSetter;
 
