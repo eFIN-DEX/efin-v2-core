@@ -13,7 +13,7 @@ const buildConf = (router, factory, bnb, efinPairHashCode, gasLimit) => ({
 configPerNetwork.set(
   'testnet',
   buildConf(
-    '0x0', // Router
+    '0x32D6A78deBEC40A8b32A0Cb95Fc60524b14389B0', // Router
     '0xCc261efd1946f1810959B2cbbDbD7057d39b0FCa', // FactoryV2
     '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // BNB
     '0x825f7bd3f5deccab4ef9adb06501a35e8df4a3b46346c6a067612ea19b9696e2', // EFINV2Pair hash code
