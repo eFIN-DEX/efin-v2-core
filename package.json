@@ -52,10 +52,10 @@
     "prepublishOnly": "yarn test",
     "deploy:testnet": "truffle compile && truffle deploy --reset --network testnet",
     "verify:testnet": "truffle run verify EFINV2Factory --network testnet",
-    "check:hashcode:testnet": "truffle exec ./scripts/viewBytecode.js --network testnet",
+    "check:hashcode:testnet": "truffle compile && truffle exec ./scripts/viewBytecode.js --network testnet",
     "deploy:mainnet": "truffle compile && truffle deploy --reset --network mainnet",
     "verify:mainnet": "truffle run verify EFINV2Factory --network mainnet",
-    "check:hashcode:mainnet": "truffle exec ./scripts/viewBytecode.js --network mainnet"
+    "check:hashcode:mainnet": "truffle compile && truffle exec ./scripts/viewBytecode.js --network mainnet"
   },
   "license": "GPL-3.0-or-later"
 }

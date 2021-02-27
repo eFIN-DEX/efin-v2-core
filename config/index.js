@@ -14,7 +14,7 @@ configPerNetwork.set(
   'testnet',
   buildConf(
     '0x0', // Router
-    '0x11207D137CE9F618c850c036B4E0C7A9558a8d42', // FactoryV2
+    '0xCc261efd1946f1810959B2cbbDbD7057d39b0FCa', // FactoryV2
     '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // BNB
     '0x825f7bd3f5deccab4ef9adb06501a35e8df4a3b46346c6a067612ea19b9696e2', // EFINV2Pair hash code
     '10000000', // Gas limit
