@@ -8,8 +8,8 @@ const EFINV2Pair = artifacts.require("EFINV2Pair.sol");
 /** Process parameters: */
 
 // Testnet: 0xCc261efd1946f1810959B2cbbDbD7057d39b0FCa
-// Mainnet: 0x0
-const efinFactoryAddress = '0xCc261efd1946f1810959B2cbbDbD7057d39b0FCa';
+// Mainnet: 0x3b5238312DcBb5ADEdA7470109e60c39CF9ad406
+const efinFactoryAddress = '0x3b5238312DcBb5ADEdA7470109e60c39CF9ad406';
 
 module.exports = async (callback) => {
     try {
